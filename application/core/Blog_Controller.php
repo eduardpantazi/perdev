@@ -8,7 +8,7 @@ class Blog_Controller extends CI_Controller {
 		session_start();
 	}
 
-	function setari($sectiune) {
+	function setari($sectiune) { // in lucru
 		$setare = $this->setaridb->setari($sectiune);
 		return $setare;
 	}
